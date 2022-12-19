@@ -6,4 +6,4 @@ def getdata(passportlist):
     print('Success!')
   elif response.status_code == 404:
     print('Not Found.')
-  print(response.json())
+  print(response.content)
